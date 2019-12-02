@@ -1,11 +1,16 @@
-# Search QQ Contacts
+## Search QQ Contacts
 搜索QQ联系人。  
 ![gif](gif/0.gif?raw=true)
 
-# Unselect QQ Chat
+## Unselect QQ Chat
 取消会话的选择状态，类似于清屏。
 
-# Release note
+## Warning
+此 workflow 集合并未在 Alfred 4 上进行测试，有可能存在不兼容的情况。
+
+已知问题：Search QQ Contacts 直接操作了 Alfred 本地数据库，数据库文件路径在 v3 和 v4 中不同，需要自行修改。
+
+## Release note
 **version 1.2 (2018.08.09)**
 适配了QQ for Mac V6.4.0(33080)
 在Alfred 3.6.2(922)下测试通过
